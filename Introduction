@@ -13,3 +13,6 @@ ADVANTAGES
     Simplicity - 
     Fast Compile times
     Garbage collected - dont need to manage own memory
+    Build-in concurrency
+    Compile to standalone library - when compile then everything is going to be buundled into that single binary that's related to the go application.
+    
