@@ -16,3 +16,15 @@ ADVANTAGES
     Build-in concurrency
     Compile to standalone library - when compile then everything is going to be buundled into that single binary that's related to the go application.
     
+    
+<
+package main
+import {
+    "net"
+}
+
+func main(){
+    fmt.println("Hello")
+}
+/>
+    
