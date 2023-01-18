@@ -19,14 +19,14 @@ ADVANTAGES
     
 <
 package main // every go program must tell that it has a package.
-// Mian is entryopint of any appplication
+// Mainn is entryopint of any appplication
 
 import {
     "fmt" // format strings
 }
 
 func main(){ // Application entrypoint
-    fmt.println("Hello")
+    fmt.Println("Hello")
 }
 />
     
