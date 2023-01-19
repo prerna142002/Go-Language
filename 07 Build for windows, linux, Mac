@@ -2,3 +2,5 @@ go env
 intrerested in GOOS = "darwin" - MAC
 GOOS="windows" go build  -> build an application with windows executable
 GOOS="linux" go build  -> build an application with linux executable
+
+
