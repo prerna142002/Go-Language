@@ -37,3 +37,12 @@ FUN FACTS:
                Executable are different for OS. options for exectables 
 2. What : System apps to web apps - Cloud Infrastruction. Shrinking hte machines. 
           Already in production
+3. Object Oriented : we have structs not classes no overloading, mehtoed over-loading.
+                     Yes or No
+                     What you see on the screen is the code.
+
+
+MISSING:
+Not missing 
+try-catch not present will never need them
+lexer does alot of work - dont write semi-colon but doc says we should - lexer provides this.
