@@ -30,3 +30,10 @@ func main(){ // Application entrypoint
 }
 />
     
+    
+FUN FACTS:
+1. COMPILED : (Whole file read first and then output is created) (Java is not compilted is between gives intermediate binaries and expect and must have JVM installed)
+               Can run without VM.
+               Executable are different for OS. options for exectables 
+2. What : System apps to web apps - Cloud Infrastruction. Shrinking hte machines. 
+          Already in production
