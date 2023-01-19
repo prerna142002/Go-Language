@@ -1,0 +1,20 @@
+
+Memory allocation and Deallocation happens automatically
+Memory Mangement
+----------------
+new()
+1. Allocate memory but no INIT
+2. You will get a memory address
+3. Zeroed Storage
+
+make()
+1. Allocate memory and INIT
+2. You will get a memory address
+3. Non-zeroed storage
+
+ 
+1. Garbae collection happens automatically - threshold values about the memory
+2. Out of Scope or nil
+
+GOGC - variable sets the inital garbage collection target percentage and GC happens after that value is reached.
+
