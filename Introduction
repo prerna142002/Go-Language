@@ -29,6 +29,10 @@ func main(){ // Application entrypoint
     fmt.Println("Hello")
 }
 />
+
+How to run - go run main.go
+
+Output - Hello
     
     
 FUN FACTS:
