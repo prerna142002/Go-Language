@@ -1,1 +1,32 @@
+We dont put the semicolon - because we want lexer to put it itself.
+Job of lexer that checks the grammar of the language which we are using is correct or not.  It is present in every language.
+
+Types:
+1. Case Sensitive; almost (1st capital shows - public and private )
+2. Variable type should be known in advance.
+3. Everything is a Type.
+
+
+Primitives
+----------
+String
+Bool
+Integer ( uin8 uint64 int8 int 64 uintptr)
+Floating ( float32 float64)
+Complex
+
+
+Others
+------
+Array
+Slices
+Maps
+Structs
+Pointers
+
+Functions
+Channels
+Mutex
+
+
 
