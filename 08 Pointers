@@ -1,0 +1,7 @@
+Why pointers exist
+1. Problem - declare a variable, constant or anything are referecne of the memory
+When passed to function then we pass the copy instead of the variable and create irregularities.
+Pointers gives the assurity - passing memeory address - passing actual variable. 
+To absolute assurance we need to make sure that we pass the actual value and not the copy we use the pointers.
+Direct reference to the memory address.
+
