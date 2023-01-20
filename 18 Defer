@@ -1,1 +1,32 @@
+When the function executed it executes line by line although it compiles but that's how the flow works.
+As soon as you put the defer keyword whatever the next line you have put for the execution then it is not going to execute but it is going to execute at the end of the function.
+
+package main
+
+import "fmt"
+
+func main() {
+	defer1()
+	defer2()
+}
+
+func defer1() {
+	defer fmt.Println("World")
+	fmt.Println("Hello")
+}
+
+func defer2() {
+	// Last In First Out
+	defer fmt.Println("One")
+	defer fmt.Println("Two")
+	defer fmt.Println("Three")
+	myDefer()
+}
+
+func myDefer() {
+	for i := 0; i < 5; i++ {
+		defer fmt.Println(i)
+	}
+
+}
 
