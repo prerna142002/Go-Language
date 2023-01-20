@@ -1,0 +1,38 @@
+package main
+
+import "fmt"
+
+func main() {
+	fmt.Println("Welcome to functions")
+	greeter()
+
+	result := adder(12, 123)
+
+	fmt.Println("Result is: ", result)
+
+	proresult, proMessage := proAdder(2, 5, 4, 6)
+	fmt.Println("Result of adding is ", proresult, " ", proMessage)
+
+	// Anonymys function
+	func() {
+		fmt.Println("Anonyms Functions")
+	}()
+}
+
+func greeter() {
+	fmt.Println("Namaste from golang")
+}
+
+// kind of Value we expect to return is signature
+func adder(v1 int, v2 int) int {
+	return v1 + v2
+}
+
+func proAdder(values ...int) (int, string) {
+	total := 0
+
+	for _, val := range values {
+		total += val
+	}
+	return total, "Hi Pro"
+}
