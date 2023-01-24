@@ -1,0 +1,60 @@
+Collection of functions and data.
+Declare with package keyword
+Filename doesnot need to match with package name
+Convention is to use the lowercase.
+
+< 
+package even 
+
+// The below function can be used as it is public
+func Even(){
+  return "even"
+}
+
+// The below function cannot be used as it is public
+func Odd(){
+  return "odd"
+}
+
+
+// How to export the package
+
+package main
+
+import {
+  "even"
+  "fmt"
+}
+
+func main(){
+  fmt.Println(even.Even())
+}
+
+/>
+
+Convention is to user CamelCase rather than underscore.
+
+TESTING PACKAGES
+It is customary to write unit tests for your package.
+Involves testing packgae and the program go test
+
+Test files reside in *_test.go
+When writing test you need to tell go test whether a test was a success or not.
+
+1. func (t *T) Fail(), Fail marks the test function as having failed but continues execution.
+2. func (t *T) FailNow(), FailNow marks the test function as having failed and stops its execution. Any remaining tests in this file are skipped, and execution continues with the next test.
+3. func (t *T) Log(args ...interface{}), Log formats its arguments using default formatting, analogous to Print(), and records the text in the error log.
+4. func (t *T) Fatal(args ...interface{}), Fatal is equivalent to Log() followed by FailNow().
+
+
+Useful Packages
+1. fmt -> formatted I/O with function analogous to C's printf and scanf
+2. io -> basic interfaces to I/O primitives ; wrap exisiting implementations of such primitives such as os, into shared public interfaces
+3. bufio -> implements buffered I/O primitives, wraps an io.Reader or io.Writer object
+4. sort -> provides primitives for sorting arrays and user-defined collections.
+5. strconv -> string conversion functions
+6. os -> os functionality
+7. sync -> basic synchronization primitives such as mutual exclusion locks.
+
+
+
